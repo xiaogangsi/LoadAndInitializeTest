@@ -11,9 +11,9 @@
 
 @implementation MyObjectSuper
 
-+ (void)initialize {
-    NSLog(@"%s",__FUNCTION__);
-}
+//+ (void)initialize {
+//    NSLog(@"%s",__FUNCTION__);
+//}
 
 + (void)load
 {
