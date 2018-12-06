@@ -10,7 +10,7 @@
 
 @implementation MyObjectSuper (superCategory0)
 
-+ (void)load {
-    NSLog(@"%s",__FUNCTION__);
-}
+//+ (void)load {
+//    NSLog(@"%s",__FUNCTION__);
+//}
 @end

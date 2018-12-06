@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-//#import "MyObject.h"
+#import "MyObject.h"
 #import "MyObjectChild.h"
 #import "MyObjectSuper.h"
 
@@ -19,7 +19,7 @@
 //    [[MyObjectSuper alloc] init];
     
     NSLog(@"[[MyObjectChild alloc] init]; 之前");
-    [[MyObjectChild alloc] init];
+    [[MyObject alloc] init];
     NSLog(@"[[MyObjectChild alloc] init]; 之后");
 }
 

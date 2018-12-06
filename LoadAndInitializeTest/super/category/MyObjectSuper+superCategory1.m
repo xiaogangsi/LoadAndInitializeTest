@@ -9,7 +9,7 @@
 #import "MyObjectSuper+superCategory1.h"
 
 @implementation MyObjectSuper (superCategory1)
-+ (void)load {
-    NSLog(@"%s",__FUNCTION__);
-}
+//+ (void)load {
+//    NSLog(@"%s",__FUNCTION__);
+//}
 @end
