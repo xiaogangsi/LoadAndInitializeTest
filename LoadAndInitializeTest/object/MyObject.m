@@ -15,9 +15,9 @@
     int nIval;//第一处增加
 }
 
-+ (void)initialize {
-    NSLog(@"%s",__FUNCTION__);
-}
+//+ (void)initialize {
+//    NSLog(@"%s",__FUNCTION__);
+//}
 
 //+ (void)initialize {
 //    if (self == [MyObject class]) {
